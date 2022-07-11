@@ -1,0 +1,62 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.label{
+    font-size: 1.1em;
+    margin-bottom: .5rem;
+}
+
+.email, .password, .birthdate, .name, .avatar, .work{
+    width: 20rem;
+    margin-bottom: .5rem;
+    height: 30px;
+    border: 1px solid rgb(109, 109, 109);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.description{
+    margin-bottom: .5rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.separator {
+    margin: .5rem 0;
+    background-color: black;
+    height: 1px;
+}
+
+.loginButton{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    background-color: #0070f3;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.registerText{
+    margin-top: .5rem;
+    font-size: 1.1em;
+    text-align: center;
+    color: #000000;
+}
+
+.registerText a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.registerText a:hover{
+    color: #0070f3;
+    text-decoration: underline;
+}
+

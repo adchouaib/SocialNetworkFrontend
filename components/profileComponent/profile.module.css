@@ -1,0 +1,81 @@
+#about-section {
+    background: rgba(32, 33, 36, 0.1);
+    position: relative;
+}
+
+.updateForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 360px;
+}
+
+
+.blockabout {
+    padding: 20px;
+    background: white;
+}
+
+.blockabout_inner {
+    padding: 30px;
+    border: 1px solid rgba(32, 33, 36, 0.1);
+}
+
+.sosmed-horizontal a i {
+    border: 1px solid #070707;
+    border-radius: 50%;
+    color: #070707;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.rey_btn {
+    border: 2px solid #070707;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.registerText{
+    margin-top: .5rem;
+    font-size: 1.1em;
+    text-align: center;
+    color: #000000;
+}
+
+.registerText a {
+    color: #0070f3;
+    text-decoration: none;
+}
+
+.registerText a:hover{
+    color: #0070f3;
+    text-decoration: underline;
+}
+
+.label{
+    font-size: 1.1em;
+    margin-bottom: .5rem;
+}
+
+.email, .password, .birthdate, .name, .avatar, .work{
+    margin-bottom: .5rem;
+    height: 30px;
+    border: 1px solid rgb(109, 109, 109);
+    padding: 15px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,91 @@
+.card{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 10px;
+    background-color: #fff;
+    
+    width: 620px;   
+}
+
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.author:hover{
+    cursor: pointer;
+}
+
+.postHeader .author{
+    display: flex;
+    align-items: center;
+}
+
+.postHeader .author .avatar{
+    border-radius: 50%;
+}
+
+.postHeader .author h4{
+    font-size: 1.1em;
+    margin-left: 10px; 
+}
+
+.postInputField {
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #616161;
+    border: 1px solid #F5F5F5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 120px !important;
+    width: 100%;
+}
+
+.postTitleInputField{
+    border-radius: 10px;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+    box-sizing: border-box;
+    color: #616161;
+    border: 1px solid #F5F5F5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 40px !important;
+    width: 100%;
+}
+
+.postInputField:focus, .postTitleInputField:focus{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #0070f3 !important;
+    outline-width: 0 !important;
+}
+
+.footer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postButton{
+    border: none;
+    border-radius: 10px;
+    padding:5px 25px;
+    background-color: #0070f3;
+    color: #fff;
+}
+
+.icon:hover, .icon_active:hover{
+    color: #0070f3;
+    cursor: pointer;
+}
+
+.icon_active{
+    color: #0070f3;
+}

@@ -1,0 +1,113 @@
+.container {
+    padding: 0 2rem;
+}
+
+.main {
+    margin: auto;
+    max-width: 1300px;
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+}
+
+.friendsButton{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.profileButton{
+    position: absolute;
+    top: 2px;
+    right: 100px;
+    width: 30px;
+    height: 25px;
+}
+
+.invitationButton{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.invitationButton:hover, .friendsButton:hover, .profileButton:hover{
+    cursor: pointer;
+    color: #0070f3;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.title .head {
+    color: #0070f3;
+    text-decoration: none;
+}
+  
+  .title .head:hover,
+  .title .head:focus,
+  .title .head:active {
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+.title {
+    margin: 0;
+    margin-top: 20px;
+    line-height: 1.15;
+    font-size: 4rem;
+}
+  
+.title,
+.description {
+    text-align: center;
+}
+  
+.description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+  
+.code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+  
+.logo {
+    height: 1em;
+    margin-left: 0.5rem;
+}
+  
+  
+  

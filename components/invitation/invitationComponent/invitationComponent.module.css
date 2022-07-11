@@ -1,0 +1,42 @@
+
+
+  .nearby_user{
+    padding: 20px 0;
+    border-top: 1px solid #f1f2f2;
+    border-bottom: 1px solid #f1f2f2;
+    margin-bottom: 20px;
+  }
+  
+  .profile_photo_lg{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+
+  .actionButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+  }
+  .acceptButton {
+    width: 20px;
+  }
+
+  .refuseButton{
+    width: 18px;
+  }
+
+  .acceptButton:hover , .refuseButton:hover{
+    width: 22px;
+    transition: .2s ease-out;
+    cursor: pointer;
+  }
+
+  .acceptButton{
+    color: rgb(47, 153, 47);
+  }
+
+  .refuseButton{
+    color: rgb(199, 33, 33);
+  }
